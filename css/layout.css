@@ -11,8 +11,7 @@
    c. About Section
    d. Resume Section
    e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
+   f. Life Section
    h. Contact Section
    i. Footer
 
@@ -320,6 +319,10 @@ Parallax
 /*	Skill Bars
 /*----------------------------------------------*/
 
+#skills{
+  margin-top: 20px;
+  
+}
 
 .bars {
 	width: 95%;
@@ -328,69 +331,68 @@ Parallax
 	text-align: left;
   
 }
-.bars .skill {
-  	margin-top: 36px;
-   list-style: none;
+.bars .skills {
+  margin-top: 36px;
+  list-style: none;
 }
 .bars li {
-   position: relative;
-  	margin-bottom: 60px;
-  	background: #ccc;
-  	height: 42px;
-  	border-radius: 3px;
+  position: relative;
+  margin-bottom: 60px;
+  background: #ccc;
+  height: 42px;
+  border-radius: 3px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+  color: #313131;
 	text-transform: uppercase;
-   letter-spacing: 2px;
+  letter-spacing: 2px;
 	font-weight: normal;
-   position: relative;
+  position: relative;
 	top: -36px;
 }
 .bar-expand {
-   position: absolute;
-   left: 0;
-   top: 0;
-
-   margin: 0;
-   padding-right: 24px;
-  	background: #313131;
-   display: inline-block;
-  	height: 42px;
-   line-height: 42px;
-   border-radius: 3px 0 0 3px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding-right: 24px;
+  background: #313131;
+  display: inline-block;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 3px 0 0 3px;
 }
 
 .ruby  {
-  	width: 40%;
-  	-moz-animation: ruby 2s ease;
-  	-webkit-animation: ruby 2s ease;
+	width: 40%;
+	-moz-animation: ruby 2s ease;
+	-webkit-animation: ruby 2s ease;
 }
 .javascript {
-  	width: 20%;
-  	-moz-animation: javascript 2s ease;
-  	-webkit-animation: javascript 2s ease;
+	width: 10%;
+	-moz-animation: javascript 2s ease;
+	-webkit-animation: javascript 2s ease;
 }
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+.bootstrap {
+	width: 50%;
+	-moz-animation: wordpress 2s ease;
+	-webkit-animation: wordpress 2s ease;
 }
 .css {
-  	width: 50%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+	width: 50%;
+	-moz-animation: css 2s ease;
+	-webkit-animation: css 2s ease;
 }
 .html {
-  	width: 60%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+	width: 60%;
+	-moz-animation: html5 2s ease;
+	-webkit-animation: html5 2s ease;
 }
 .jquery {
-  	width: 20%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+	width: 20%;
+	-moz-animation: jquery 2s ease;
+	-webkit-animation: jquery 2s ease;
 }
 
 @-moz-keyframes ruby {
@@ -525,10 +527,10 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------
-/* g. Testimonials
+/* f. Life
 /* ------------------------------------------------------------------ */
 
-#testimonials {
+#life {
    background: #1F1F1F url(../images/Afremov3.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
@@ -539,19 +541,19 @@ call-to-action .button {
    width: 100%;
    overflow: hidden;
 }
-#testimonials .text-container {
+#life .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
 }
-#testimonials h1 {
+#life h1 {
    font: 18px/24px 'opensans-bold', sans-serif;   
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
 }
-#testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
+#life h1 span { display: none; }
+#life .header-col { padding-top: 9px; }
+#life .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f10d";
 	padding-right: 10px;
@@ -563,30 +565,30 @@ call-to-action .button {
 }
 
 /*	Blockquotes */
-#testimonials blockquote {
+#life blockquote {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
-#testimonials blockquote:before { content: none; }
-#testimonials blockquote p {
+#life blockquote:before { content: none; }
+#life blockquote p {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
    font-size: 24px;
    line-height: 48px;
    color: #fff
 }
-#testimonials blockquote cite {
+#life blockquote cite {
    display: block;
    font-size: 12px;
    font-style: normal;
    line-height: 18px;
    color: #fff;
 }
-#testimonials blockquote cite:before { content: "\2014 \0020"; }
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited { color: #8B9798; border: none }
+#life blockquote cite:before { content: "\2014 \0020"; }
+#life blockquote cite a,
+#life blockquote cite a:visited { color: #8B9798; border: none }
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
