@@ -365,7 +365,7 @@ Parallax
 }
 
 .ruby  {
-	width: 40%;
+	width: 30%;
 	-moz-animation: ruby 2s ease;
 	-webkit-animation: ruby 2s ease;
 }
@@ -375,22 +375,22 @@ Parallax
 	-webkit-animation: javascript 2s ease;
 }
 .bootstrap {
-	width: 50%;
+	width: 30%;
 	-moz-animation: wordpress 2s ease;
 	-webkit-animation: wordpress 2s ease;
 }
 .css {
-	width: 50%;
+	width: 40%;
 	-moz-animation: css 2s ease;
 	-webkit-animation: css 2s ease;
 }
 .html {
-	width: 60%;
+	width: 40%;
 	-moz-animation: html5 2s ease;
 	-webkit-animation: html5 2s ease;
 }
 .jquery {
-	width: 20%;
+	width: 10%;
 	-moz-animation: jquery 2s ease;
 	-webkit-animation: jquery 2s ease;
 }
